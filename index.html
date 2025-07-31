@@ -139,8 +139,12 @@
     }
 
     .sig-block {
-      text-align: right;
+      text-align: center;
       font-size: 0.9em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
     }
 
     .date-place {
@@ -183,7 +187,7 @@
       <td><b>Date of Publication:</b> <span class="info-box">09/07/2024</span></td>
     </tr>
     <tr>
-      <td><b>Name:</b> <span class="info-box">Aswin M </span></td>
+      <td><b>Name:</b> <span class="info-box">Aswin M</span></td>
       <td><b>Gender:</b> <span class="info-box">MALE</span></td>
       <td><b>Regulation:</b> <span class="info-box">2022</span></td>
     </tr>
@@ -193,9 +197,11 @@
       <td><b>Branch:</b> <span class="info-box">B.E. Computer Science and Engineering</span></td>
     </tr>
     <tr>
-      <td><b>Semester:</b> <span class="info-box">II</span></td>
-      <td><b>Year:</b> <span class="info-box">I</span></td>
-    </tr>
+  <td><b>Semester:</b> <span class="info-box">II</span></td>
+  <td><b>Year:</b> <span class="info-box">I</span></td>
+  <td></td> <!-- Added empty cell to match column count -->
+</tr>
+
   </table>
 
   <div class="table-section">
@@ -249,8 +255,11 @@
       Date: 31/03/2025
     </div>
     <div class="sig-block">
-      <div class="seal">CONTROLLER OF EXAMINATIONS<br><span style="font-size:11px;">(SEAL)</span></div>
       <b>CONTROLLER OF EXAMINATIONS</b>
+      <div class="seal">
+        CONTROLLER OF<br>EXAMINATIONS<br>
+        <span style="font-size:11px;">(SEAL)</span>
+      </div>
     </div>
   </div>
 
